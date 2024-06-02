@@ -1,0 +1,200 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>ABOUT</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Genetics Counseling infosite">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Clint John I. Celeste">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  .background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3.5px);
+}
+
+  form{
+  width: 50%;
+  border: solid;
+  border-width: thin;
+  background-color:rgb(33, 64, 48)
+  }
+  
+  
+  h1{
+	 font-style: italic;
+  }
+  
+  select {
+  width: 50%;
+  border: solid;
+  border-width: thin;
+  background-color:rgb(41, 117, 115)
+  }
+  
+  a{
+     font-style: helvetica;
+   }
+  
+  a:hover {
+  text-shadow: 0 0 5px #ff0000;
+  }
+ 
+
+  
+  .navbar {
+  overflow: hidden;
+   background-image:url("background.jpg");
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+} 
+
+.image-container {
+  position: relative;
+  width: 45%;
+  margin: 1%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: filter 0.5s ease;
+  display: inline-block;
+  margin: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.image-container:hover .overlay {
+  height: 100%;
+  width: 100%;
+}
+
+.image-container:hover .image {
+  filter: blur(5px);
+}
+
+.text {
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+  </style>
+</head>
+<body>
+  <div class="background-image">
+    <img src="background.jpg" >
+  </div>
+  <div class="navbar">
+  <center>
+  <h1>GENETIC COUNSELING</h1>
+  </center>
+  <section >
+  <a href = "home.html" style="color:black" >HOME</a>
+  <a href = "about.html" style="color:black">ABOUT</a>
+  <a href = "contacts.html" style="color:black">CONTACTS</a>
+  <a href = "profile.html" style="color:black">PROFILE</a>    
+  </section>
+  </div>
+<center>  
+  <div class="image-container">
+  <form>
+  <h2>WHAT IS THE PURPOSE OF THIS WEBSITE?</h2>
+  </form>
+  <img src="image11.jpg"  class="image">
+  <div class="overlay">
+    <div class="text">
+      The main purpose of this website is to help make informed decisions all about genetic counseling.
+	 </div>
+  </div>
+</div>
+
+<div class="image-container">
+  <form>
+  <h2>GENOMES 101</h2>
+  </form>
+  <img src="image21.jpg"  class="image">
+  <div class="overlay">
+    <div class="text">This are the different resources on the topic of genomes.(NOTE THIS ARE EXTERNAL LINKS, ClICK TO ACCESS)
+	</div>
+  </div>
+</div>
+<select onchange="location = this.value;">
+  <option value="http://surl.li/ucynj">What are Genomes?</option>
+  <option value="http://surl.li/ucylw">Genome Structure and Organization</option>
+  <option value="http://surl.li/ucymq">Genome Sequencing</option>
+  <option value="http://surl.li/ucynd">Genetic Variation and Diversity</option>
+  <option value="http://surl.li/ucynh">Functional Genomics</option>
+  <option value="http://surl.li/ucynt">Genome Evolution</option>
+  <option value="http://surl.li/ucynz">Comparative Genomics</option>
+  <option value="http://surl.li/ucyoi">Genome Annotation</option>
+  <option value="http://surl.li/ucyoq">Personal Genomics</option>
+  <option value="http://surl.li/ucyoz">Genomic Medicine</option>
+</select>
+
+
+
+<div class="image-container">
+  <form>
+  <h2>GENETIC COUNSELING MOST COMMON QUESTION</h2>
+  </form>
+  <img src="image31.jpg"  class="image">
+  <div class="overlay">
+    <div class="text">This are the different resources on genetic counseling.(NOTE THIS ARE EXTERNAL LINKS, ClICK TO ACCESS)
+	</div>
+  </div>
+</div>
+<select onchange="location = this.value;">
+  <option value="http://surl.li/ucyss">What is genetic counseling, and how can it help me and my family?</option>
+  <option value="http://surl.li/ucysy">Why might I or my family need genetic counseling?</option>
+  <option value="http://surl.li/ucytc">How do I prepare for a genetic counseling appointment?</option>
+  <option value="http://surl.li/ucytp">What to ask my genetic councellor?</option>
+  <option value="http://surl.li/ucytj">What happens during a genetic counseling session?</option>
+  <option value="http://surl.li/ucyub">The importance of genetic counseling?</option>
+  <option value="http://surl.li/ucyuh">What are the costs associated with genetic counseling, and will my insurance cover it?</option>
+  <option value="http://surl.li/ucyul">How do I interpret genetic test results, and what are the implications for me and my family?</option>
+  <option value="http://surl.li/ucyus">What are my reproductive options if genetic counseling reveals a risk of passing on a genetic condition?</option>
+  <option value="http://surl.li/ucyuy">How can I find additional support and resources related to genetic conditions and genetic counseling?</option>
+</select>
+</center>
+</body>
+</html>
